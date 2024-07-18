@@ -38,7 +38,7 @@ body{
     font-weight: 800;
 }
 .similer-heding{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     color: rgba(255, 255, 255, 255);
     margin: 20px 0;
@@ -46,6 +46,17 @@ body{
 .similer-description{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 300;
+}
+.similer-btn{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    border: none;
+    border-radius:30px ;
+    padding: 17px 42px;
+    margin-right: 20px;
 }
 /* styling header */
 .header{
@@ -115,7 +126,7 @@ body{
     letter-spacing: 1px;
     font-size: 17px;
 }
-.hero-btn-1{
+/* .hero-btn-1{
     background-color: rgb(230, 83, 60);
     color: white;
     font-size: 20px;
@@ -125,7 +136,7 @@ body{
     border-radius:30px ;
     padding: 17px 42px;
     margin-right: 20px;
-}
+} */
 .hero-btn-2{
     background-color: black;
     color: white;
@@ -209,4 +220,30 @@ body{
 .habits-card>p{
     margin: 15px auto;
     width: 80%;
+}
+
+/* styling the "Run an extra mile Easily" */
+.run-extra-card{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.run-extra-card-left{
+    width: 40%;
+    margin: 3% 5%;
+}
+.run-btn{
+    margin-top: 50px;
+    padding: 17px 70px;
+}
+.run-extra-card-right{
+    width: 40%;
+    margin: 3% 3%;
+}
+.show-run{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
