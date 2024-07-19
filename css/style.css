@@ -151,6 +151,17 @@ body{
     border: 1px solid whitesmoke;
     border-radius:30px ;
     padding: 17px 42px;
+    cursor: pointer;
+}
+.hero-btn-1:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+.hero-btn-2:hover{
+    background-color: rgb(230, 83, 60);
+    border: none;
+    
 }
 .hero-right{
     width: 50%;
@@ -186,11 +197,18 @@ body{
     bottom:70px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
 }
 .hero-card-2 h1{
     font-size: 35px;
     font-weight: 1000;
     letter-spacing: 2px;
+}
+.play-icon{
+    font-size: 40px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 /* .hero-card-2 h1::after{
     content: '';
