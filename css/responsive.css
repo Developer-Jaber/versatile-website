@@ -6,6 +6,13 @@
         width: 85%;
         margin: 65px auto;
     }
+    .similer-heding{
+        font-size: 40px;
+    }
+    .similer-description{
+        font-size: 19px;
+    }
+    
     /* responsiv navber */
     .nav-links{
         display: none;
@@ -74,6 +81,27 @@
     .hero-card-2{
         left:30px;
         bottom:250px;
+    }
+
+    /* responsiv change habits section */
+    .change-habit p{
+        width: 82%;
+    }
+    .habits-box{
+        display: block;
+        margin: 70px 0;
+    }
+    .habits-card img{
+        width: 50%;
+    }
+    .habits-card-heading{
+        margin-top: 20px;
+        color: white;
+        font-size: 25px;
+    }
+    .habits-card>p{
+        margin: 15px auto;
+        width: 70%;
     }
 }
 
