@@ -24,6 +24,7 @@
 }
 /* Styling body */
 body{
+    border: 1px solid white;
     font-family: "Inter", sans-serif;
     background-color: black;
 }
@@ -72,7 +73,7 @@ body{
 .navber{
     display: flex;
     justify-content: space-between;
-    background: none;
+    /* background: none; */
 }
 .brand{
     font-size: 2.5rem;
@@ -96,6 +97,11 @@ body{
     padding: 9px 22px;
     color: white;
     border-radius:22px ;
+}
+.menu-icon{
+    margin-top: 10px;
+    font-size: 30px;
+    display: none;
 }
 /* hover effect on nav-links */
 .nav-link:hover{
