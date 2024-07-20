@@ -194,9 +194,27 @@
         font-size: 1.5rem;
         font-weight: 600;
     }
+
+    /* responsiv design for the footer section hear */
+    .footer-logo{
+        font-size: 4.3rem;
+        font-weight: 900;
+        margin-top: 70px;
+        padding-top: 50px;
+    }
+    .footer-box{
+        display: block;
+    }
+    .col-1{
+        width: 90%;
+    }
+    .col-2, .col-3{
+        width: 90%;
+    }
+    .caption{
+        padding-bottom: 70px;
+    }
 }
-
-
 
 
 
